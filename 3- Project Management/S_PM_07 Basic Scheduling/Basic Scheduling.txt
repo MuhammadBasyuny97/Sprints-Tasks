@@ -1,0 +1,9 @@
+path: ACFH = 3 + 2 + 2 + 3 = 10
+path: ACEGH = 3 + 2 + 1 + 4 + 3 = 13
+path: ABDGH = 3 + 4 + 5 + 4 +3 = 19
+
+Delivery date depends on the critical path ABDGH
+ 
+1- Delivery Date after 19 day.
+
+2- (F task) could be delayed up to 9 days (start with lag 9 days) without delaying the schedule date.
