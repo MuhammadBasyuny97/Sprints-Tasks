@@ -1,0 +1,17 @@
+- Customer 
+
+- Sponsor
+
+- CEO 
+
+- Team 
+      •	Software Development Team
+      •	HR Team
+      •	Quality Team
+      •	Accounting / Finance Team
+
+- Suppliers
+      •	Google Maps
+      •	Banks
+
+- Stores, Clinics and Restaurants
