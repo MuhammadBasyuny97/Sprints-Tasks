@@ -1,0 +1,5 @@
+2- Delivery Date after 19 days
+
+3- Float for A B D G C H = 0
+              E = 6
+              F = 9
