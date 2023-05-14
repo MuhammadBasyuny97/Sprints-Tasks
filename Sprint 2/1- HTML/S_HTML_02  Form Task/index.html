@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> S_HTML_02  Form Task | Muhammad Basyuny</title>
+</head>
+<body style="background-color: rgb(40, 63, 73);">
+    <form method="post" >
+        <fieldset style="background-color: hsl(188, 72%, 28%);">
+            <legend style="background-color: hsl(188, 50%, 44%);">Personal Data</legend>
+            <fieldset  style="background-color: hsl(188, 50%, 44%);">
+                <legend style="background-color: hsl(188, 50%, 36%); padding-top: 30px ;padding-bottom: 30px;">
+                     Your Name</legend>
+                 <div>
+                    <div style="padding-top: 50px;">
+                        <div style="display: inline-block; width: 7%;">
+                            <label for="firstname"> First Name</label>
+                        </div>
+                        <span>:</span>
+                        <input type="text" id="firstname"  name="firstName" required placeholder="ex Mohamed" />
+                    </div>
+                    <div>
+                        <div style="display: inline-block; width: 7%;">
+                            <label for="secondname"> Second Name</label>
+                        </div>
+                        <span>:</span>
+                         <input type="text" id="secondname" name="secondName" required placeholder="ex Hashem" />
+                    </div>
+                 </div>
+            </fieldset>
+
+            <div style="padding-top: 20px;">
+
+                <div>
+                    <div style="display: inline-block; width: 7%;">
+                        <label for="yourphone"> Your Phone</label>
+                    </div>
+                    <span>:</span>
+                     <input type="tel" id="yourphone" name="phone" required placeholder="" />
+                </div>
+
+              
+                <div>
+                    <div style="display: inline-block; width: 7%;">
+                        <label for="email"> Email</label>
+                    </div>
+                    <span>:</span>
+                     <input type="email" id="email" name="email" required placeholder="" />
+                </div>
+
+                <div>
+                    <div style="display: inline-block; width: 7%;">
+                        <label for="password"> Password</label>
+                     </div>
+                        <span>:</span>
+                        <input type="password" id="password" name="password" required/>
+                </div>
+
+               <div>
+                      <div style="display: inline-block; width: 7%;">
+                        <label for="password"> re-Password</label>
+                      </div>
+                        <span>:</span>
+                        <input type="password" id="password" name="password" required placeholder="" />
+              </div>
+ 
+         </div> 
+
+         <div style="padding-top: 20px;">
+
+            <div>
+                <input id="male" type="radio" name="Gender" value="Male" required/>
+                <label for="male">Male</label>
+            </div>
+            
+            <div>
+                <input id="female" type="radio" name="Gender" value="Female" required/>
+                <label for="female">Female</label>
+            </div>
+            
+
+         </div>
+
+         <div style="padding-top: 20px;">
+            
+            <div>
+                <input id="student" type="checkbox" name="Status" value="Student" />
+                <label for="student">Student</label>
+            </div>
+            
+            <div>
+                <input id="graduated" type="checkbox" name="Status" value="Graduated" />
+                <label for="graduated">Graduated</label>
+            </div>
+
+            <div style="padding-top: 20px;">
+                <div>
+                    <div style="display: inline-block; width: 70px;">
+                      <label for="university"> University</label>
+                    </div>
+                      <span>:</span>
+                      <select id="university" name="University">
+                         <option value="AUC">AUC</option>
+                         <option value="GUC">GUC</option>
+                         <option value="BUC">BUC</option>
+                      </select>
+               </div>
+
+            </div>
+
+            <div style="padding-top: 10px;">
+              <input type="submit" value="Submit" 
+              style="background-color:rgb(48, 44, 44); color: aliceblue; width: 70px;"/>
+            </div>
+           
+            
+
+         </div>
+
+
+             
+             </div>
+        </fieldset>
+    </form>
+</body>
+</html>
