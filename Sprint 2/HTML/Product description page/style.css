@@ -1,0 +1,15 @@
+.head{
+    color:rgb(37, 37, 153);
+    border-bottom: 1px solid black;
+}
+
+.chair{
+    border: 1px solid rgb(37, 37, 153);
+    width:auto; 
+    height: 500px;
+    object-fit: cover;
+}
+
+.bold{
+    font-weight: bold;
+}
