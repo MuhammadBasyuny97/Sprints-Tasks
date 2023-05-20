@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
+        <title>Document</title>
+  <script src="https://kit.fontawesome.com/8e132ad4b8.js" crossorigin="anonymous"></script>
+
+ 
+</head>
+<body>
+    <div class="flexbox">
+        <div class="center">
+            <span><i class="fa-solid fa-music fa-2xl padding"></i><h1 style="display: inline;"> Top 10 Songs</h1></span>
+        </div>
+         <div class="center">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the 
+                leap into electronic typesetting, remaining essentially unchanged.
+                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         </div>
+        
+            <!--<input type="button" class="btn" id="btn" value="Show Me!"/> -->
+            <button class="btn" id="btn" >Show Me!</button>
+         
+    </div>
+
+    <div class="flex-songs" id="songs">
+       <div class="songs">
+            <div class="inline">
+                <span>#1</span><h6 class="inline">Time to Pretend</h6>
+            </div>
+            <div class="inline song2" >
+            <span>#2</span><h6 class="inline">O-o-oh Child</h6>
+            </div>
+       </div>
+
+       <div class="songs">
+        <div class="inline">
+            <span>#3</span><h6 class="inline">Wish You Were Here</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#4</span><h6 class="inline">Heroes</h6>
+        </div>
+      </div>
+      <div class="songs">
+        <div class="inline">
+            <span>#5</span><h6 class="inline">I Put a Spell on You</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#6</span><h6 class="inline">Call me</h6>
+        </div>
+     </div> 
+
+     <div class="songs">
+        <div class="inline">
+            <span>#5</span><h6 class="inline">I Put a Spell on You</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#6</span><h6 class="inline">Call me</h6>
+        </div>
+     </div>
+
+     <div class="songs">
+        <div class="inline">
+            <span>#5</span><h6 class="inline">I Put a Spell on You</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#6</span><h6 class="inline">Call me</h6>
+        </div>
+     </div>
+     <div class="songs">
+        <div class="inline">
+            <span>#7</span><h6 class="inline">Paper Planes</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#8</span><h6 class="inline">Jolene</h6>
+        </div>
+     </div>
+     <div class="songs">
+        <div class="inline">
+            <span>#9</span><h6 class="inline">You don't own me</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#10</span><h6 class="inline">Fast Car</h6>
+        </div>
+     </div>
+     
+     <div class="songs">
+        <div class="inline">
+            <span>#11</span><h6 class="inline">Run The World [Girls]</h6>
+        </div>
+        <div class="inline song2" >
+        <span>#12</span><h6 class="inline">Superstition</h6>
+        </div>
+     </div>
+       
+    </div>
+
+
+
+    <script>
+        var button = document.getElementById('btn');
+         button.addEventListener("click", display);
+        
+    
+       function display(){
+        var list = document.getElementById('songs');
+                if (list.style.display === 'none') {
+                    list.style.display = 'block';
+                   // button.value = 'Hide';
+                    button.innerText = 'Hide';
+                } else {
+                    list.style.display = 'none';
+                   // button.value = 'Show Me!';
+                  button.innerText = 'Show Me!';
+                }
+               
+    
+        }
+    
+      
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+
+body{
+ background-color:   #532a7f;
+ font-family:   "Archivo", sans-serif;
+ color: #EFEFEF;
+}
+
+.flexbox{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.center{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p{
+    line-height: 150%;
+}
+
+.btn{
+   display: block;
+   margin:5vh auto;
+   width: 120px;
+   height: 50px;
+   background-color: #EFEFEF;
+   color: #532a7f;
+}
+
+.padding{
+    margin-right: 5px;
+}
+.inline{
+    display: inline-block;
+    width: 45%;
+}
+.flex-songs{
+    border: 2px solid white;
+    display: none;
+    margin: auto;
+    width: 30%;
+}
+.songs{
+    margin: 20px;
+}
+.song2{
+    display: inline-block;
+}
+.flex-songs span{
+    background-color:  #8d1e7e;
+    padding: 5px;
+    margin-right: 6px;
+}
